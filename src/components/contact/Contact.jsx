@@ -2,8 +2,8 @@ import emailjs from "@emailjs/browser";
 
 import { useRef } from "react";
 import { BsWhatsapp } from "react-icons/bs";
+import { LiaLinkedin } from "react-icons/lia";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
 import "./contact.css";
 
 const ContactData = [
@@ -11,22 +11,22 @@ const ContactData = [
     id: 1,
     icon: <MdOutlineEmail />,
     title: "Email",
-    info: "Redatech@gmail.com",
+    info: "muhanadelaidy@gmail.com",
     link: "mailto:test@gmail.com",
   },
   {
     id: 2,
-    icon: <RiMessengerLine />,
-    title: "Messenger",
-    info: "RedaTech",
-    link: "https://m.me/houdareda.99",
+    icon: <LiaLinkedin />,
+    title: "Linked In",
+    info: "Muhanad Elaidy",
+    link: "https://www.linkedin.com/in/muhanadelaidy/",
   },
   {
     id: 3,
     icon: <BsWhatsapp />,
     title: "WhatsApp",
-    info: "0123456789",
-    link: "https://api.whatsapp.com/send?phone=201112119676",
+    info: "+201017206829",
+    link: "https://api.whatsapp.com/send?phone=201017206829",
   },
 ];
 

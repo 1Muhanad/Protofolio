@@ -19,6 +19,7 @@
   border-radius: 2rem;
   overflow: hidden;
   transition: var(--transition);
+  background-color: cyan;
 }
 .about_me_image:hover {
   transform: rotate(0deg);

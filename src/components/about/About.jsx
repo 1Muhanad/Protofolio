@@ -1,7 +1,7 @@
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-import ImageMe from "../../assets/me-about.jpg";
+import ImageMe from "../../assets/me-about.png";
 import "./about.css";
 function About() {
   return (
@@ -23,26 +23,28 @@ function About() {
             <div className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>3+ Years working</small>
+              <small>6 Months</small>
             </div>
 
             <div className="about_card">
               <FiUsers className="about_icon" />
               <h5>Clients</h5>
-              <small>200+ worldwide</small>
+              <small>5+ worldwide</small>
             </div>
 
             <div className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>50+ Complete</small>
+              <small>10+ Complete</small>
             </div>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rem
-            modi consequuntur optio perferendis quam vel, veritatis dolores eum
-            beatae?
+            I'm a Frontend Developer focused on React.js and Next.js. I enjoy
+            building clean, fast, and responsive web apps. I started learning
+            development on my own and I've been working on real projects to
+            improve my skills every day. I'm looking for opportunities where I
+            can grow and contribute to a real product.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

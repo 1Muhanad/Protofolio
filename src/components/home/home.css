@@ -26,6 +26,9 @@
   padding: 5rem 1.5rem 1.5rem 1.5rem;
   overflow: hidden;
 }
+img {
+  background-color: linear-gradient(var(--color-primary), transparent);
+}
 .scroll_down {
   position: absolute;
   right: -35px;
