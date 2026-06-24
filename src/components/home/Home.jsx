@@ -8,7 +8,7 @@ function Home() {
       <div className="container home_container">
         <h4>Hello I'm</h4>
         <h1>Muhanad Yousef</h1>
-        <h4 className="text-light">Frontend Developer</h4>
+        <h4 className="text-title">Frontend Developer</h4>
 
         <div className="btns">
           <a href={CV} className="btn" download>

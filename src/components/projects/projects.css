@@ -16,6 +16,9 @@
   border-radius: 15px;
   overflow: hidden;
 }
+.portofolio_item_img img {
+  height: 289px;
+}
 .portofolio_item h3 {
   margin: 22px 0 35px;
 }

@@ -44,7 +44,7 @@ h1 {
 section {
   padding-top: 8rem;
 }
-.text-light {
+.text-title {
   color: var(--color-light);
 }
 a {

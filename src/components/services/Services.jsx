@@ -14,21 +14,21 @@ function Services() {
         <article className="card">
           <MdDesignServices className="icon" />
           <h3>Web Design</h3>
-          <p className="text-light">
+          <p className="text-title">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi!
           </p>
         </article>
         <article className="card">
           <IoIosRocket className="icon" />
           <h3>Fast Performance</h3>
-          <p className="text-light">
+          <p className="text-title">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi!
           </p>
         </article>
         <article className="card">
           <FaCode className="icon" />
           <h3>Clean Code</h3>
-          <p className="text-light">
+          <p className="text-title">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi!
           </p>
         </article>

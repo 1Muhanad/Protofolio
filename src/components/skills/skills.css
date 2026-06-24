@@ -35,9 +35,6 @@
   }
 }
 @media (max-width: 600px) {
-  .container_skills .card_skills {
-    width: 49%;
-  }
   .container_skills .card_skills .icon {
     width: 50px;
     height: 50px;

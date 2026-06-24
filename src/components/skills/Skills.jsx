@@ -66,7 +66,7 @@ function Skills() {
         <h2>My Expreience</h2>
       </div>
 
-      <div className="container container_skills">
+      <div className="container container_skills col-sm-2">
         {SkillsData.map(({ id, title, image, disc }) => (
           <article className="card_skills">
             <div className="icon" key={id}>
@@ -75,7 +75,7 @@ function Skills() {
 
             <div className="content">
               <h4>{title}</h4>
-              <p className="text-light">{disc}</p>
+              <p className="text-title">{disc}</p>
             </div>
           </article>
         ))}
